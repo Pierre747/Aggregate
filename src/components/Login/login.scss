@@ -1,0 +1,35 @@
+.section_input{
+  &_email{
+  background: url(../assets/pictures/mails.svg) no-repeat;
+  background-size: 25px;
+  background-position: right;
+  }
+  &_password{
+  background: url(../assets/pictures/password.svg) no-repeat;
+  background-size: 25px;
+  background-position: right;
+  }
+}
+
+.redirect_user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_question{
+    font-size: larger;
+  }
+  &_link{
+    font-size: larger;
+  }
+}
+
+.login_button {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-top: 0.3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background: url(../assets/pictures/arrow.svg) no-repeat;
+  background-size: 25px;
+}

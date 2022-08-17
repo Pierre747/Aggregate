@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.App {
+	display: grid;
+	place-items: center;
+
+  &_title_main {
+    display: grid;
+    place-items: center;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Righteous', serif;
+  font-size: 12em;
+  filter:drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  }
+
+	&_subtitle {
+    display: grid;
+	  place-items: center;
+		font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    filter:drop-shadow(0.35rem 0.35rem 0.4rem rgba(105, 105, 105, 0.825));
+	}
+
+	&_invite_auth {
+		text-align: left;
+    padding-left: 0.3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+	}
+
+	&_auth_panel {
+		padding: 0.5rem;
+		background: rgba( 247, 119, 15, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+	}
+
+	&_login {
+		padding: 1rem;
+    
+	}
+
+	&_register {
+		padding: 1rem;
+	}
+}

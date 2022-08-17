@@ -1,0 +1,9 @@
+.main {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 17rem auto;
+	column-gap: 1em;
+	width: 100%;
+}
+
+

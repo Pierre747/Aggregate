@@ -1,0 +1,44 @@
+.container_friends {
+	display: flex;
+	height: 79.4vh;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	width: 87.5vw;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-around;
+	align-items: stretch;
+	justify-content: space-between;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#dark .container_friends {
+	transition: background-color 1s;
+	background-color: rgb(47, 47, 47);
+}
+
+#light .container_friends {
+	transition: background-color 1s;
+	background-color: #dedede;
+}
+
+.friendTag {
+	transition: all 0.2s ease-in-out;
+	padding-left: 3rem;
+	color: rgb(0, 172, 0);
+}
+
+.friendTag:hover {
+	transform: scale(1.4);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.friend_card--hide {
+	transition: all 0.2s ease-in-out;
+	display: none;
+}

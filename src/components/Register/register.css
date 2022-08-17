@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+input {
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: grid;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: transparent;
+  color: antiquewhite;
+}
+
+input:focus {
+  outline: none;
+}
+
+.register_input_name {
+  background: url(../assets/pictures/name.svg) no-repeat;
+  background-size: 25px;
+  background-position: right;
+}
+.register_input_email {
+  background: url(../assets/pictures/mails.svg) no-repeat;
+  background-size: 25px;
+  background-position: right;
+}
+.register_input_password {
+  background: url(../assets/pictures/password.svg) no-repeat;
+  background-size: 25px;
+  background-position: right;
+}
+
+.register_button {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-top: 0.3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background: url(../assets/pictures/arrow.svg) no-repeat;
+  background-size: 25px;
+}
+
+.redirect_user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.redirect_user_question {
+  font-size: larger;
+}
+.redirect_user_link {
+  font-size: larger;
+}/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.home {
+  padding: 1rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  &_blur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 77vh;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow-y: scroll;
+  }
+  &_blur::-webkit-scrollbar {
+    width: 5px;
+  }
+  &_blur::-webkit-scrollbar-thumb {
+    background: rgb(255, 145, 0); 
+  }
+  &_post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_user{
+    display: flex;
+    align-items: center;
+  }
+  &_post_buttons{
+    display: flex;
+    align-items: center;
+    }
+  &_post-comments {
+    padding-left: 45px;
+  }
+}
+
+.homeTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile{
+  &_img{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.5s;
+  }
+  &_img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+  }
+  &_name{
+    transition: color 1s;
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0 10px;
+      color: black;
+  }
+  
+}
+
+#dark .profile_name {
+  transition: color 1s;
+  color: azure;
+}
+
+#light .home {
+  transition: background-color 1s;
+  background-color: lightgray;
+}
+
+#dark .home {
+  transition: background-color 1s;
+  background-color: rgb(47, 47, 47);
+}
+
+.post_date{
+  transition: color 1s;
+font-size: 12px;
+}
+
+#dark .post_date{
+  transition: color 1s;
+  color: azure;
+}
+
+.likeIcon{
+  padding-right: 5px;
+  width: 20px !important;
+  height: 20px !important;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.likeIcon:hover{
+  color: rgb(245, 2, 172);
+}
+.likeIcon--liked{
+  transition: all .2s ease-in-out;
+  color: rgb(245, 2, 172);
+  cursor: pointer;
+}
+
+.thumbsUp{
+  padding-right: 5px;
+  width: 20px !important;
+  height: 20px !important;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.thumbsUp:hover{
+  color: #1a02f5;
+}
+
+.postLikeCounter{
+  font-size: 15px;
+  padding-right: 3rem;
+}
+
+.homeCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.postImg{
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.home_buttons{
+  transition: color 1s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+#dark .home_buttons{
+  transition: color 1s;
+  color: lightgray;
+}
+
+.postText{
+  padding-top: 2rem;
+}
+
+.commentIcon{
+  margin-right: 3rem;
+}
+.commentIcon:hover{
+  color: #1a02f5;
+  cursor: pointer;
+}
+
+.addIcon{
+  transition: all .2s ease-in-out;
+}
+.addIcon:hover{
+  color: rgb(0, 172, 0);
+  cursor: pointer;
+}
+.addIcon--friend{
+  transition: color 1s;
+  transition: all .2s ease-in-out;
+  color: rgb(0, 172, 0);
+  cursor: pointer;
+}
+
+.img_label{
+  background-color: #ebebeb;
+
+}
+.subtext{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  border-bottom: 3px dashed hsl(27, 100%, 66%);
+  padding-top: 3rem;
+}
+
+.post_without_pics {
+  display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("https://images.unsplash.com/photo-1519972064555-542444e71b54") ;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 30vw;
+height: 20vh;
+font-size: 2rem;
+font-family: 'Bebas Neue', cursive;
+text-shadow: 2px 1px 5px azure;
+padding: 3rem;
+}
+
+.comments{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  
+}
+.commentCounter {
+  display: flex;
+  font-size: 15px;
+  margin-left: -2.5rem;
+  padding-right: 3rem;
+}
+
+.user_post{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 60vh;
+
+  &_content{
+    text-align: center;
+    color: black;
+  }
+  &_description{
+    text-align: center;
+    color: black;
+  }
+  &_form_submit_btn{
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7f5a83;
+	background-image: linear-gradient(
+		43deg,
+		#4158d0 0%,
+		#c850c0 46%,
+		#ffcc70 100%
+	);
+	background-size: 200% 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+	transition: 500ms;
+}
+
+button:before {
+	content: 'Send';
+	color: rgb(151, 151, 151);
+  font-family: 'Bebas Neue', cursive;
+	font-size: x-large;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 140px;
+	height: 40px;
+	background-color: azure;
+	background-image: linear-gradient(315deg, #b20ad4 0%, #4200d0 74%);
+	transition: 500ms;
+}
+
+button:hover {
+	background-position: right;
+}
+
+button:hover:before {
+	color: rgba(255,255,255,0.8);
+}
+
+button:focus {
+	outline: none;
+}
+  }
+
+
+.user_post_form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  &_submit_btn{
+    margin-top: 10px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+  }
+}
+
+.picUploader {
+  padding: 1rem;
+}
+
+#light .user_frame {
+  transition: background 1s;
+  transition: box-shadow 1s;
+}
+
+#dark .user_frame {
+transition: background 1s;
+transition: box-shadow 1s;
+background: rgba(255, 255, 255, 0.641);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 1rem;
+}
+
+.top_btn_position{
+  position: fixed;
+  z-index: 999;
+  bottom: -50px;
+  right: 125px;
+  transition: bottom 0.5s ease;
+  &.open{
+    bottom: 125px;
+  }
+}
+
+.top_btn_style{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+#dark .top_btn_style{
+  position: fixed;
+  z-index: 999;
+  bottom: -50px;
+  right: 125px;
+  transition: bottom 0.5s ease;
+  &.open{
+    bottom: 125px;
+  }
+}
+
+#dark .top_btn_style{
+  color: azure;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid azure;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.upload_button{
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.snackbar {
+	position: absolute;
+	top: 5rem;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 60px;
+	border-radius: 8px;
+	display: grid;
+	align-content: stretch;
+	justify-items: center;
+}
+
+.snackbar .symbol {
+	flex: 20%;
+}
+
+.snackbar .message {
+	text-align: center;
+	font-weight: bold;
+}
+
+#show {
+	visibility: visible;
+	animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+#hide {
+	visibility: hidden;
+}
+
+@keyframes fadeIn {
+	from {
+		bottom: 0;
+		opacity: 0;
+	}
+	to {
+		bottom: 30px;
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		bottom: 30px;
+		opacity: 1;
+	}
+	to {
+		bottom: 0;
+		opacity: 0;
+	}
+}
+
+.showSnackbarBttn {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding-top: 0.5rem;
+	padding-bottom: 0.05rem;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	background: none;
+	color: blue;
+	transition: color 1s;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2rem;
+}
+
+.showSnackbarBttn:hover {
+	color: #c850c0;
+	transition: color 0.2s;
+}
+
+#dark .showSnackbarBttn:hover {
+	color: blue;
+	transition: color 0.2s;
+}
+
+.showSnackbarBttn::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: orange;
+	transition: width 0.25s ease-out;
+}
+.showSnackbarBttn:hover::before {
+	width: 100%;
+}
