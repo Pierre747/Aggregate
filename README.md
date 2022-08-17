@@ -18,7 +18,7 @@ Feel free to send us some improvements or impressions 😉
 
 To deploy this project we've used https://www.netlify.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9a4321cd-962f-4dfb-8aba-090245c7e745/deploy-status)](https://app.netlify.com/sites/aggregate-social/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e7522e3d-1787-4354-9955-b78074b88674/deploy-status)](https://app.netlify.com/sites/aggregate-social/deploys)
 
 ## Tech Stack ⚒️
 
