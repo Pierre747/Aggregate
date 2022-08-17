@@ -221,7 +221,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/O-clock-Cassini/aggregate)
+![GitHub repo size](https://img.shields.io/github/repo-size/Pierre747/Aggregate)
 
-![GitHub forks](https://img.shields.io/github/forks/O-clock-Cassini/aggregate?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Pierre747/Aggregate?style=social)
 
