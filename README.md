@@ -26,6 +26,9 @@ To deploy this project we've used https://www.netlify.com
 
 **Server:** Node, Express, PostgreSQL, Swagger, Email Validator
 
+## Repo backend 👓
+
+https://github.com/O-clock-Cassini/aggregate-back
 
 ## Screenshots 📷
 
