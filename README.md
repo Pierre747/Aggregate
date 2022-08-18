@@ -221,9 +221,5 @@ Or to connect on my **GitHub** account : https://github.com/Pierre747
 ## Badges 🥇
 
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Pierre747/Aggregate)
-
-![GitHub forks](https://img.shields.io/github/forks/Pierre747/Aggregate?style=social)
+![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) ![GitHub repo size](https://img.shields.io/github/repo-size/Pierre747/Aggregate)![GitHub forks](https://img.shields.io/github/forks/Pierre747/Aggregate?style=social)
 
